@@ -1,9 +1,10 @@
+"use client";
+
 export default function Home() {
+  const { data } = useSession();
   return (
     <>
-      <div>
-        <h1>Olá</h1>
-      </div>
+      <div></div>
     </>
   );
 }
